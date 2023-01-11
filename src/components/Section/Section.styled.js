@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-export const SectionTitle = styled.h1`
-  color: 'red';
-`;
+export const SectionTitle = styled.h1``;
 export const SectionContainer = styled.section`
-  background-color: ${p => p.theme.colors.accent};
+  padding-left: ${p => p.theme.space[5]}px;
 `;
